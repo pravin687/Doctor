@@ -624,8 +624,41 @@ input {
   background-repeat: no-repeat;
   height: 73rem;
   background-size: 100% 100%;
-  margin-top: 15rem;
+  margin-top: 40rem;
 }
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+.address-container {
+  display: contents;
+  justify-content: space-around;
+}
+
+.address {
+  width: 100%;
+  margin: 40px;
+  text-align: center;
+}
+
+.clinic-symbol {
+  font-size: 24px;
+}
+
+.address a {
+  color: #80b311;
+  text-decoration: none;
+}
+
 
 .footer__top {
   display: flex;
@@ -634,9 +667,9 @@ input {
   color: var(--color-blue-footer);
   padding-top: 19rem;
 }
-
+ 
 .logo1__img {
-  margin-right: 7.5rem;
+  margin-left: 7.5rem;
   margin-bottom: 1.5rem;
 }
 
@@ -758,6 +791,17 @@ input {
 
 .footer__right__desc {
   margin-top: 5rem;
+  color: var(--color-blue-footer);
+  font-size: 1.6rem;
+  letter-spacing: 0.1rem;
+}
+
+.footer__left {
+  margin-left: 16rem;
+}
+
+.footer__left {
+  margin-bottom: 5rem;
   color: var(--color-blue-footer);
   font-size: 1.6rem;
   letter-spacing: 0.1rem;
@@ -1951,7 +1995,7 @@ input {
   }
 
   .footer__top {
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
   }
 
