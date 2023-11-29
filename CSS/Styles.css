@@ -659,6 +659,16 @@ footer {
   text-decoration: none;
 }
 
+@media (min-width: 768px) {
+  .address {
+    width: 48%;
+  }
+}
+
+@media (min-width: 1024px) {
+  .address {
+    width: 23%;
+  }
 
 .footer__top {
   display: flex;
