@@ -1088,13 +1088,13 @@ footer {
   }
 
   .boxes1 {
-    width: 33rem;
+    width: 26rem;
     height: 52rem;
   }
 
   .boxes1__img {
-    margin-left: 4rem;
-    margin-inline: 9.5rem;
+    margin-left: 2rem;
+    margin-inline: 3rem;
   }
 
   .boxes1__desc {
