@@ -431,7 +431,7 @@ hr {
 
 .box-section-mid {
   background-color: var(--color-white-f);
-  box-shadow: 0px 25px 50px 25px var(--color-lightblue);
+  box-shadow: 0px 25px 50px 15px var(--color-lightblue);
   border-radius: 4.2rem;
 }
 
@@ -645,7 +645,7 @@ footer {
 }
 
 .address {
-  width: 100%;
+  width: 80%;
   margin: 40px;
   text-align: center;
 }
@@ -694,7 +694,7 @@ footer {
 .footer__tel {
   color: var(--color-blue-footer);
   padding: 2rem;
-  font-size: 1.4rem;
+  font-size: 2rem;
   letter-spacing: 0.1rem;
   margin-top: -1rem;
   margin-left: 1.3rem;
@@ -1093,8 +1093,8 @@ footer {
   }
 
   .boxes1__img {
-    margin-top: 4rem;
-    margin-left: 9.5rem;
+    margin-left: 4rem;
+    margin-inline: 9.5rem;
   }
 
   .boxes1__desc {
@@ -1705,7 +1705,7 @@ footer {
 
   .nav {
     transform: none;
-    left: 50%;
+    left: 60%;
   }
 
   .hamburger {
